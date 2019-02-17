@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Similarity Calculator</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../public/css/main.css">
+  <link rel="stylesheet" href="../public/css/uikit.min.css">
+  <script src="../public/js/uikit.min.js"></script>
+  <script src="../public/js/uikit-icons.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
+      <div class="uk-navbar-center uk-margin-medium-top">
+        <h1 class="uk-navbar-item uk-heading-divider uk-logo">Mochi Similarity Index Calculator</h1>
+      </div>
+    </nav>
+  </header>
+  <main class="uk-container uk-container-small">
+    <form id="calcForm" class="uk-flex uk-flex-middle uk-margin-large-top">
+      <input id="wordsInput" type="text" class="uk-input">
+      <button id="calcButton" class="uk-button uk-button-default">Calc</button>
+    </form>
+    <div id="similarityResultDiv" class="uk-heading-primary uk-text-center uk-margin-xlarge-top"></div>
+  </main>
+  <footer>
+    <div class="uk-text-right uk-margin-medium-left uk-margin-medium-right">
+      <a href="https://github.com/GabrielMochi/similarity-calculator" class="text-no-decoration">π π π</a>
+    </div>
+  </footer>
+  <script src="../public/js/main.js"></script>
+  <script src="../public/js/global.js"></script>
+</body>
+</html>
